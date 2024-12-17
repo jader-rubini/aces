@@ -1,0 +1,101 @@
+{
+  "unit": {
+    "base": {
+      "value": "8",
+      "type": "number",
+      "description": "Valor base utilizado no cálculo da escala de unidades."
+    },
+    "positive": {
+      "zero": {
+        "value": "0",
+        "type": "number"
+      },
+      "2xs": {
+        "value": "1",
+        "type": "number"
+      },
+      "xs": {
+        "value": "2",
+        "type": "number"
+      },
+      "sm": {
+        "value": "4",
+        "type": "number"
+      },
+      "md": {
+        "value": "{unit.base}",
+        "type": "number"
+      },
+      "lg": {
+        "value": "12",
+        "type": "number"
+      },
+      "xl": {
+        "value": "16",
+        "type": "number"
+      },
+      "2xl": {
+        "value": "20",
+        "type": "number"
+      },
+      "3xl": {
+        "value": "24",
+        "type": "number"
+      },
+      "4xl": {
+        "value": "32",
+        "type": "number"
+      },
+      "5xl": {
+        "value": "48",
+        "type": "number"
+      },
+      "6xl": {
+        "value": "64",
+        "type": "number"
+      },
+      "7xl": {
+        "value": "96",
+        "type": "number"
+      },
+      "8xl": {
+        "value": "128",
+        "type": "number"
+      },
+      "9xl": {
+        "value": "160",
+        "type": "number"
+      }
+    },
+    "negative": {
+      "2xl": {
+        "value": "-24",
+        "type": "number"
+      },
+      "xl": {
+        "value": "-16",
+        "type": "number"
+      },
+      "lg": {
+        "value": "-12",
+        "type": "number"
+      },
+      "md": {
+        "value": "-8",
+        "type": "number"
+      },
+      "sm": {
+        "value": "-4",
+        "type": "number"
+      },
+      "xs": {
+        "value": "-2",
+        "type": "number"
+      },
+      "2xs": {
+        "value": "-1",
+        "type": "number"
+      }
+    }
+  }
+}

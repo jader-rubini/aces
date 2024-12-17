@@ -1,0 +1,60 @@
+{
+  "size": {
+    "icon": {
+      "sm": {
+        "value": "{unit.positive.2xl}",
+        "type": "sizing",
+        "description": "Use para definir as dimensões de ícones em componentes densos ou de tamanho reduzido."
+      },
+      "md": {
+        "value": "{unit.positive.3xl}",
+        "type": "sizing",
+        "description": "Use nas dimensões padrão dos ícones de interface."
+      },
+      "lg": {
+        "value": "{unit.positive.4xl}",
+        "type": "sizing",
+        "description": "Use para definir a dimensão de ícones de mais destaque na interface. Esses ícones geralmente são acompanhados de um título de seção."
+      },
+      "xl": {
+        "value": "{unit.positive.5xl}",
+        "type": "sizing",
+        "description": "Use para definir as dimensões de ícones de destaque na interface. Esses ícone são geralmente presentes em componentes e telas de feedback."
+      }
+    },
+    "scale": {
+      "shrink": {
+        "value": "0.9",
+        "type": "sizing",
+        "description": "Aplicado a componentes para diminuir proporcionalmente suas dimensões. Este token deve ser usado apenas para indicar interações do usuário, ou como estado inicial de elementos que serão animados a seu tamanho natural."
+      },
+      "normal": {
+        "value": "1",
+        "type": "sizing",
+        "description": "Aplicado a componentes para redefinir suas dimensões ao tamanho natural. Este token deve ser usado apenas em elementos que tiveram suas dimensões alteradas por alguma interação do usuário, ou para serem animados de volta a seu tamanho natural."
+      },
+      "grow": {
+        "value": "1.05",
+        "type": "sizing",
+        "description": "Aplicado a componentes para aumentar proporcionalmente suas dimensões. Este token deve ser usado apenas para indicar interações do usuário, ou como estado inicial de elementos que serão animados a seu tamanho natural."
+      }
+    },
+    "divider": {
+      "default": {
+        "value": "{unit.positive.2xs}",
+        "type": "sizing",
+        "description": "Use para definir a espessura das linhas divisórias na interface."
+      },
+      "thick": {
+        "value": "{unit.positive.sm}",
+        "type": "sizing",
+        "description": "Use para definir a espessura das linhas divisórias na interface."
+      },
+      "thicker": {
+        "value": "{unit.positive.xl}",
+        "type": "sizing",
+        "description": "Use para definir a espessura das linhas divisórias na interface."
+      }
+    }
+  }
+}

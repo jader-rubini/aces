@@ -1,0 +1,452 @@
+{
+  "color": {
+    "surface": {
+      "neutral": {
+        "default": {
+          "value": "{color.{color.neutral}.0}",
+          "type": "color",
+          "description": "A superfície de nível mais baixo, usada na maioria dos componentes."
+        },
+        "soft": {
+          "value": "{color.{color.neutral}.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas, como em cards neutros."
+        },
+        "strong": {
+          "value": "{color.{color.neutral}.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadasda interface, como o estado de hover de um card neutro."
+        },
+        "inverse": {
+          "value": "{color.{color.neutral}.900}",
+          "type": "color",
+          "description": "Use em casos em que haja necessidade de alto contraste para destacar o elemento, como um tooltip."
+        }
+      },
+      "accent": {
+        "softer": {
+          "value": "{color.{color.accent}.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.{color.accent}.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.{color.accent}.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.{color.accent}.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "info": {
+        "softer": {
+          "value": "{color.{color.info}.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.{color.info}.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.{color.info}.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.{color.info}.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "success": {
+        "softer": {
+          "value": "{color.{color.success}.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.{color.success}.200}",
+          "type": "color",
+          "description": "Utilize como cor de preenchimento de elementos de maior proeminência na interface, como um card."
+        },
+        "default": {
+          "value": "{color.{color.success}.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.{color.success}.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "warning": {
+        "softer": {
+          "value": "{color.{color.warning}.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.{color.warning}.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.{color.warning}.500}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.{color.warning}.600}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "danger": {
+        "softer": {
+          "value": "{color.{color.danger}.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.{color.danger}.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.{color.danger}.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.{color.danger}.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "gradient": {
+        "highlight": {
+          "value": "{color.{color.gradient-highlight}.500}",
+          "type": "color",
+          "description": "Usado como a cor de highlight dos degradês."
+        },
+        "base": {
+          "value": "{color.surface.accent.default}",
+          "type": "color",
+          "description": "Usado como a cor predominante dos degradês."
+        },
+        "shade": {
+          "value": "{color.surface.accent.strong}",
+          "type": "color",
+          "description": "Usado como o tom inicial dos degradês."
+        }
+      }
+    },
+    "border": {
+      "neutral": {
+        "default": {
+          "value": "{color.{color.neutral}.200}",
+          "type": "color",
+          "description": "Use para delinear o contornode elementos não-interativos, como cards de conteúdo."
+        },
+        "interactive": {
+          "value": "{color.{color.neutral}.300}",
+          "type": "color",
+          "description": "Use para delinear o contornode elementos interativos,como campos de formulário."
+        },
+        "strong": {
+          "value": "{color.{color.neutral}.500}",
+          "type": "color",
+          "description": "Use para realçar sutilmenteo contorno de elementos interativos, como seu estadode hover."
+        },
+        "stronger": {
+          "value": "{color.{color.neutral}.700}",
+          "type": "color",
+          "description": "Use para destacar o contorno de elementos interativos, como seu estado de focus."
+        },
+        "inverse": {
+          "value": "{color.{color.neutral}.0}",
+          "type": "color",
+          "description": "Use para criar um efeito \"cutout\" em elementos posicionado sobre a cor de superfície padrão."
+        }
+      },
+      "semantic": {
+        "accent": {
+          "value": "{color.surface.accent.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos primários."
+        },
+        "info": {
+          "value": "{color.surface.info.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado informativo."
+        },
+        "success": {
+          "value": "{color.surface.success.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado positivo."
+        },
+        "warning": {
+          "value": "{color.surface.warning.strong}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem um estado de suspense ou não-crítico."
+        },
+        "danger": {
+          "value": "{color.surface.danger.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado negativo."
+        }
+      }
+    },
+    "text": {
+      "neutral": {
+        "soft": {
+          "value": "{color.{color.neutral}.500}",
+          "type": "color",
+          "description": "Use em textos de relevância secundária, como textos de apoio, legendas e textos legais."
+        },
+        "default": {
+          "value": "{color.{color.neutral}.800}",
+          "type": "color",
+          "description": "Cor padrão para os textos em nossas interfaces."
+        },
+        "strong": {
+          "value": "{color.{color.neutral}.900}",
+          "type": "color",
+          "description": "Use para realçar textose em elementos textuaisde relevância primária,como títulos."
+        },
+        "inverse": {
+          "value": "{color.{color.neutral}.0}",
+          "type": "color",
+          "description": "Use em casos especiais em que haja a necessidade que a cor do texto seja igual à cor de fundo da interface."
+        }
+      },
+      "accent": {
+        "base": {
+          "value": "{color.{color.accent}.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativos, como links e botões."
+        },
+        "strong": {
+          "value": "{color.{color.accent}.700}",
+          "type": "color",
+          "description": "Use para realçar textosde elementos interativos,como seu estado de hover."
+        }
+      },
+      "info": {
+        "base": {
+          "value": "{color.{color.info}.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativos informativos, como links e botões."
+        },
+        "strong": {
+          "value": "{color.{color.info}.700}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos informativos, como seu estadode hover."
+        },
+        "default": {
+          "value": "{color.{color.info}.900}",
+          "type": "color",
+          "description": "Use em passagens de textos informativos não-interativos."
+        }
+      },
+      "success": {
+        "base": {
+          "value": "{color.{color.success}.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativospositivos, como links e botões em uma mensagem de sucesso."
+        },
+        "strong": {
+          "value": "{color.{color.success}.700}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos positivos, como o estadode hover de um link."
+        },
+        "default": {
+          "value": "{color.{color.success}.900}",
+          "type": "color",
+          "description": "Use em textos não-interativos de conotação positiva, como mensagens de sucesso."
+        }
+      },
+      "warning": {
+        "base": {
+          "value": "{color.{color.warning}.700}",
+          "type": "color",
+          "description": "Use em textos de elementos interativosnão-críticos, como links e botões em uma mensagem de alerta."
+        },
+        "strong": {
+          "value": "{color.{color.warning}.800}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos não-críticos, como o estadode hover de um link."
+        },
+        "default": {
+          "value": "{color.{color.warning}.900}",
+          "type": "color",
+          "description": "Use em textos não-interativos não-críticos, como mensagens de alerta."
+        }
+      },
+      "danger": {
+        "base": {
+          "value": "{color.{color.danger}.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativosnegativos, como links e botões em uma mensagem de erro."
+        },
+        "strong": {
+          "value": "{color.{color.danger}.700}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos negativos, como o estadode hover de um link."
+        },
+        "default": {
+          "value": "{color.{color.danger}.900}",
+          "type": "color",
+          "description": "Use em textos não-interativos de conotação negativa, como mensagens de erro."
+        }
+      }
+    },
+    "icon": {
+      "neutral": {
+        "soft": {
+          "value": "{color.border.neutral.interactive}",
+          "type": "color",
+          "description": "Use em ícones de relevância secundária."
+        },
+        "default": {
+          "value": "{color.text.neutral.default}",
+          "type": "color",
+          "description": "Cor padrão para ícones."
+        },
+        "strong": {
+          "value": "{color.text.neutral.strong}",
+          "type": "color",
+          "description": "Use para realçar ícones de relevância primária, como em seu estado de hover."
+        },
+        "inverse": {
+          "value": "{color.text.neutral.inverse}",
+          "type": "color",
+          "description": "Use em casos especiais em que haja a necessidade que a cor do ícone seja igual à cor de fundo da interface."
+        }
+      },
+      "semantic": {
+        "accent": {
+          "value": "{color.text.accent.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos interativos."
+        },
+        "info": {
+          "value": "{color.text.info.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos informativos."
+        },
+        "success": {
+          "value": "{color.text.success.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos que indiquem uma situação ou estado positivo."
+        },
+        "warning": {
+          "value": "{color.surface.warning.strong}",
+          "type": "color",
+          "description": "Use em ícones de elementos que indiquem um estado de alerta não-crítico."
+        },
+        "danger": {
+          "value": "{color.text.danger.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos que indiquem uma situação ou estado negativo."
+        }
+      }
+    },
+    "utility": {
+      "light": {
+        "value": "{color.neutral.light}",
+        "type": "color",
+        "description": "Use quando há necessidade de que a cor se mantenha semprea mesma, independente do tema aplicado à interface."
+      },
+      "dark": {
+        "value": "{color.neutral.dark}",
+        "type": "color",
+        "description": "Use quando há necessidade de que a cor se mantenha semprea mesma, independente do tema aplicado à interface."
+      }
+    },
+    "shadow": {
+      "neutral": {
+        "soft": {
+          "value": "#12141a1f",
+          "type": "color",
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "#12141a52",
+          "type": "color",
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      },
+      "accent": {
+        "soft": {
+          "value": "#4b0e981f",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que possuam função primária."
+        },
+        "intense": {
+          "value": "#4b0e9852",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que possuam função primária."
+        }
+      },
+      "info": {
+        "soft": {
+          "value": "#2025a21f",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação informativa."
+        },
+        "intense": {
+          "value": "#2025a252",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação informativa."
+        }
+      },
+      "success": {
+        "soft": {
+          "value": "#0046001f",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação positiva ou feedback de sucesso."
+        },
+        "intense": {
+          "value": "#00460052",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação positiva ou feedback de sucesso."
+        }
+      },
+      "warning": {
+        "soft": {
+          "value": "#825b001f",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação de alerta não-crítico."
+        },
+        "intense": {
+          "value": "#825b0052",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação de alerta não-crítico."
+        }
+      },
+      "danger": {
+        "soft": {
+          "value": "#7500001f",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação crítica ou destrutiva."
+        },
+        "intense": {
+          "value": "#75000052",
+          "type": "color",
+          "description": "Use em sombras de elementos de interface que representem uma mensagem ou ação crítica ou destrutiva."
+        }
+      }
+    }
+  }
+}

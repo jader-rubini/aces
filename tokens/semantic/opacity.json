@@ -1,0 +1,24 @@
+{
+  "opacity": {
+    "transparent": {
+      "value": "{opacity.transparent}",
+      "type": "number"
+    },
+    "low": {
+      "value": "{opacity.low}",
+      "type": "number"
+    },
+    "medium": {
+      "value": "{opacity.medium}",
+      "type": "number"
+    },
+    "high": {
+      "value": "{opacity.high}",
+      "type": "number"
+    },
+    "opaque": {
+      "value": "{opacity.opaque}",
+      "type": "number"
+    }
+  }
+}

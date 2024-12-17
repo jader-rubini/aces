@@ -1,0 +1,53 @@
+{
+  "border": {
+    "radius": {
+      "none": {
+        "value": "{unit.positive.xs}",
+        "type": "borderRadius",
+        "description": "Usado para resetar o valor do raio de borda para o valor inicial, sem arredondamento."
+      },
+      "sm": {
+        "value": "{unit.positive.sm}",
+        "type": "borderRadius",
+        "description": "Usado em elementos pequenos, como chips e badges."
+      },
+      "md": {
+        "value": "{unit.positive.md}",
+        "type": "borderRadius",
+        "description": "Valor padrão usado na maioria dos elementos com bordas arredondadas, como botões e campos de formulário."
+      },
+      "lg": {
+        "value": "{unit.positive.xl}",
+        "type": "borderRadius",
+        "description": "Usado em containers e elementos maiores da interface."
+      },
+      "pill": {
+        "value": "{unit.positive.9xl}",
+        "type": "borderRadius",
+        "description": "Usado em elementos de diversos tamanhos para criar um aspecto de pílula."
+      }
+    },
+    "width": {
+      "none": {
+        "value": "{unit.positive.zero}",
+        "type": "borderWidth",
+        "description": "Usado para remover a borda de elementos que anteriormente recebiam alguma borda."
+      },
+      "thin": {
+        "value": "{unit.positive.2xs}",
+        "type": "borderWidth",
+        "description": "Valor padrão para a maioria dos elementos que recebem bordas, como campos de formulário e divisórias."
+      },
+      "thick": {
+        "value": "{unit.positive.xs}",
+        "type": "borderWidth",
+        "description": "Usado para realçar e destacar elementos através de sua borda."
+      },
+      "thicker": {
+        "value": "{unit.positive.sm}",
+        "type": "borderWidth",
+        "description": "Usado em casos especiais como callouts e feedbacks."
+      }
+    }
+  }
+}

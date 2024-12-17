@@ -1,0 +1,190 @@
+{
+  "space": {
+    "inset": {
+      "none": {
+        "value": "{unit.positive.zero}",
+        "type": "spacing",
+        "description": "Utilize para resetar o padding vertical e horizontal em elementos de interface."
+      },
+      "2xs": {
+        "value": "{unit.positive.sm}",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "{unit.positive.md}",
+        "type": "spacing",
+        "description": "Utilize para definir o padding vertical e horizontal em elementos de interface pequenos ou de alta densidade."
+      },
+      "sm": {
+        "value": "{unit.positive.lg}",
+        "type": "spacing",
+        "description": "Utilize para definir o padding vertical e horizontal em elementos de interface pequenos ou de alta densidade."
+      },
+      "md": {
+        "value": "{unit.positive.xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o padding vertical e horizontal em elementos de interface de tamanho e densidade médios."
+      },
+      "lg": {
+        "value": "{unit.positive.3xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o padding vertical e horizontal em elementos de interface grandes ou de baixa densidade."
+      },
+      "xl": {
+        "value": "{unit.positive.4xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o padding vertical e horizontal em elementos de interface grandes ou de baixa densidade."
+      }
+    },
+    "inline": {
+      "none": {
+        "value": "{unit.positive.zero}",
+        "type": "spacing",
+        "description": "Utilize para resetar o gap horizontal em elementos de interface."
+      },
+      "2xs": {
+        "value": "{unit.positive.xs}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap horizontal entre elementos de interface pequenos ou de alta densidade."
+      },
+      "xs": {
+        "value": "{unit.positive.sm}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap horizontal entre elementos de interface pequenos ou de alta densidade."
+      },
+      "sm": {
+        "value": "{unit.positive.md}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap horizontal entre elementos de interface pequenos ou de alta densidade."
+      },
+      "md": {
+        "value": "{unit.positive.xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap horizontal entre elementos de interface de tamanho e densidade médios."
+      },
+      "lg": {
+        "value": "{unit.positive.3xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap horizontal entre elementos de interface grandes ou de baixa densidade."
+      },
+      "xl": {
+        "value": "{unit.positive.4xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap horizontal entre elementos de interface grandes ou de baixa densidade."
+      },
+      "negative": {
+        "sm": {
+          "value": "{unit.negative.xs}",
+          "type": "spacing",
+          "description": "Use para aproximar e sobrepor elementos dispostos horizontalmente."
+        },
+        "md": {
+          "value": "{unit.negative.sm}",
+          "type": "spacing",
+          "description": "Use para aproximar e sobrepor elementos dispostos horizontalmente."
+        },
+        "lg": {
+          "value": "{unit.negative.md}",
+          "type": "spacing",
+          "description": "Use para aproximar e sobrepor elementos dispostos horizontalmente."
+        }
+      }
+    },
+    "stack": {
+      "none": {
+        "value": "{unit.positive.zero}",
+        "type": "spacing",
+        "description": "Utilize para resetar o gap vertical em elementos de interface."
+      },
+      "2xs": {
+        "value": "{unit.positive.xs}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre elementos de interface pequenos ou de alta densidade."
+      },
+      "xs": {
+        "value": "{unit.positive.sm}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre elementos de interface pequenos ou de alta densidade."
+      },
+      "sm": {
+        "value": "{unit.positive.md}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre elementos de interface pequenos ou de alta densidade."
+      },
+      "md": {
+        "value": "{unit.positive.xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre elementos de interface de tamanho e densidade médios."
+      },
+      "lg": {
+        "value": "{unit.positive.3xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre elementos de interface grandes ou de baixa densidade."
+      },
+      "xl": {
+        "value": "{unit.positive.4xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre elementos de interface grandes ou de baixa densidade."
+      },
+      "2xl": {
+        "value": "{unit.positive.5xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre seções de layout."
+      },
+      "3xl": {
+        "value": "{unit.positive.6xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre seções de layout."
+      },
+      "4xl": {
+        "value": "{unit.positive.7xl}",
+        "type": "spacing",
+        "description": "Utilize para definir o gap vertical entre seções de layout."
+      },
+      "negative": {
+        "sm": {
+          "value": "{unit.negative.sm}",
+          "type": "spacing",
+          "description": "Use para aproximar e sobrepor elementos dispostos verticalmente."
+        },
+        "md": {
+          "value": "{unit.negative.md}",
+          "type": "spacing",
+          "description": "Use para aproximar e sobrepor elementos dispostos verticalmente."
+        },
+        "lg": {
+          "value": "{unit.negative.xl}",
+          "type": "spacing",
+          "description": "Use para aproximar e sobrepor elementos dispostos verticalmente."
+        }
+      }
+    }
+  },
+  "font": {
+    "scale": {
+      "value": "{font.scale.tablet}",
+      "type": "number"
+    }
+  },
+  "grid": {
+    "space": {
+      "gap": {
+        "value": "{unit.positive.xl}",
+        "type": "spacing",
+        "description": "Espaçamento padrão entre colunas do grid principal do site."
+      },
+      "margin": {
+        "value": "{unit.positive.4xl}",
+        "type": "spacing",
+        "description": "Margens horizontais externas do container principal do site."
+      }
+    },
+    "column": {
+      "count": {
+        "value": "12",
+        "type": "number",
+        "description": "Contagem de colunas do grid principal, utilizado como referência para dimensionamento dos elementos e componentes de interface."
+      }
+    }
+  }
+}

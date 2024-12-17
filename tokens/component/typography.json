@@ -1,0 +1,543 @@
+{
+  "type": {
+    "heading": {
+      "xl": {
+        "value": {
+          "fontWeight": "{font.weight.heading}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.4xl}",
+          "lineHeight": "{font.lineheight.2xl}",
+          "letterSpacing": "{font.letterspacing.tighter}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como título em uma hero section. Não deve ser utilizado mais de uma vez em uma mesma página."
+      },
+      "lg": {
+        "value": {
+          "fontWeight": "{font.weight.heading}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.xl}",
+          "lineHeight": "{font.lineheight.xl}",
+          "letterSpacing": "{font.letterspacing.tight}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como título de primeiro nível, como o título de uma página. Não deve ser utilizado mais de uma vez em uma mesma página."
+      },
+      "md": {
+        "value": {
+          "fontWeight": "{font.weight.heading}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.2xl}",
+          "lineHeight": "{font.lineheight.lg}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como título de segundo nível, como o título de uma seção em uma página. Pode ser utilizado mais de uma vez em uma mesma página."
+      },
+      "sm": {
+        "value": {
+          "fontWeight": "{font.weight.heading}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.xl}",
+          "lineHeight": "{font.lineheight.lg}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como título de terceiro nível, como em subseções dentro de uma seção ou módulo de uma página. Pode ser utilizado múltiplas vezes em uma mesma página."
+      },
+      "xs": {
+        "value": {
+          "fontWeight": "{font.weight.heading}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.lg}",
+          "lineHeight": "{font.lineheight.md}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como pequenos títulos dentro de um componente, ou como título de um grupo de elementos, como uma lista de links. Pode ser utilizado múltiplas vezes em uma mesma página."
+      }
+    },
+    "subtitle": {
+      "lg": {
+        "value": {
+          "fontWeight": "{font.weight.subtitle}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.2xl}",
+          "lineHeight": "{font.lineheight.xl}",
+          "letterSpacing": "{font.letterspacing.tight}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como subtítulo de um `type-heading-xl`, apesar de também poder ser utilizado isoladamente."
+      },
+      "md": {
+        "value": {
+          "fontWeight": "{font.weight.subtitle}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.xl}",
+          "lineHeight": "{font.lineheight.lg}"
+        },
+        "type": "typography",
+        "description": "Geralmente utilizado como subtítulo de um `type-heading-lg` ou `type-heading-md`, apesar de também poder ser utilizado isoladamente."
+      }
+    },
+    "overline": {
+      "lg": {
+        "value": {
+          "fontWeight": "{font.weight.overline}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.sm}",
+          "lineHeight": "{font.lineheight.xs}",
+          "letterSpacing": "{font.letterspacing.comfortable}",
+          "textCase": "{font.case.upper}"
+        },
+        "type": "typography",
+        "description": "Aparecem frequentemente acima de um `type-heading-xl`, para dar contexto à mensagem. Também pode ser utilizado como uma badge."
+      },
+      "md": {
+        "value": {
+          "fontWeight": "{font.weight.overline}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.xs}",
+          "lineHeight": "{font.lineheight.xs}",
+          "letterSpacing": "{font.letterspacing.comfortable}",
+          "textCase": "{font.case.upper}"
+        },
+        "type": "typography",
+        "description": "Aparecem frequentemente acima de um `type-heading-lg` ou `type-heading-md`, para dar contexto à mensagem. Também pode ser utilizado como uma badge."
+      },
+      "sm": {
+        "value": {
+          "fontWeight": "{font.weight.overline}",
+          "fontFamily": "{font.face.brand}",
+          "fontSize": "{font.size.2xs}",
+          "lineHeight": "{font.lineheight.2xs}",
+          "letterSpacing": "{font.letterspacing.comfortable}",
+          "textCase": "{font.case.upper}"
+        },
+        "type": "typography",
+        "description": "Usado em badges compactas."
+      }
+    },
+    "body": {
+      "lg": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.body}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineheight.lg}",
+            "paragraphSpacing": "{space.stack.md}"
+          },
+          "type": "typography",
+          "description": "Pode ser utilizado para realçar pequenos blocos de texto na hierarquia da página."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineheight.lg}",
+            "paragraphSpacing": "{space.stack.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar palavras ou sentenças em um parágrafo."
+        }
+      },
+      "md": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.body}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}",
+            "paragraphSpacing": "{space.stack.sm}"
+          },
+          "type": "typography",
+          "description": "Estilo padrão de texto para aplicações gerais como parágrafos curtos."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}",
+            "paragraphSpacing": "{space.stack.sm}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar palavras ou sentenças em um parágrafo."
+        }
+      },
+      "sm": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.body}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.sm}",
+            "paragraphSpacing": "{space.stack.sm}"
+          },
+          "type": "typography",
+          "description": "Pode ser utilizado como textos de apoio, como legendas e textos legais."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.sm}",
+            "paragraphSpacing": "{space.stack.sm}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar palavras ou sentenças em um parágrafo."
+        }
+      },
+      "xs": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.body}",
+            "fontSize": "{font.size.xs}",
+            "lineHeight": "{font.lineheight.xs}",
+            "paragraphSpacing": "{space.stack.xs}"
+          },
+          "type": "typography",
+          "description": "Utilizado apenas em textos legais, disclaimers e conteúdos cuja leitura é opcional. NÃO utilizar em textos de interface ou qualquer outro cenário."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.xs}",
+            "lineHeight": "{font.lineheight.xs}",
+            "paragraphSpacing": "{space.stack.xs}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar palavras ou sentenças em um parágrafo."
+        }
+      }
+    },
+    "longform": {
+      "lg": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.longform}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineheight.lg}",
+            "letterSpacing": "{font.letterspacing.loose}",
+            "paragraphSpacing": "{space.stack.md}"
+          },
+          "type": "typography",
+          "description": "Pode ser utilizado para realçar pequenos blocos de texto dentro de um blog, artigo ou texto corrido."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineheight.lg}",
+            "letterSpacing": "{font.letterspacing.loose}",
+            "paragraphSpacing": "{space.stack.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar palavras ou sentenças em um parágrafo."
+        }
+      },
+      "md": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.longform}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.lg}",
+            "letterSpacing": "{font.letterspacing.loose}",
+            "paragraphSpacing": "{space.stack.md}"
+          },
+          "type": "typography",
+          "description": "Utilizado em grandes corpos de texto corrido, como blogs e artigos."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.body}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.lg}",
+            "letterSpacing": "{font.letterspacing.loose}",
+            "paragraphSpacing": "{space.stack.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar palavras ou sentenças em um parágrafo."
+        }
+      }
+    },
+    "numbers": {
+      "xl": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.3xl}",
+            "lineHeight": "{font.lineheight.xl}",
+            "letterSpacing": "{font.letterspacing.tight}"
+          },
+          "type": "typography",
+          "description": "Utilizado em valores monetários e numéricos, quando há apenas um valor a ser realçado na hierarquia da página."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.3xl}",
+            "lineHeight": "{font.lineheight.xl}",
+            "letterSpacing": "{font.letterspacing.tight}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar a informação na página."
+        },
+        "strike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.3xl}",
+            "lineHeight": "{font.lineheight.xl}",
+            "letterSpacing": "{font.letterspacing.tight}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada, utilizada para indicar um valor que não está mais em vigência, como o de uma compra cancelada."
+        },
+        "strongstrike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.3xl}",
+            "lineHeight": "{font.lineheight.xl}",
+            "letterSpacing": "{font.letterspacing.tight}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada e em negrito, utilizada para destacar um valor que não está mais em vigência, como o de uma compra cancelada."
+        }
+      },
+      "lg": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.xl}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Utilizado quando há apenas poucos valores monetários ou numéricos com a mesma hierarquia em uma mesma página."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.xl}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar a informação na página."
+        },
+        "strike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.xl}",
+            "lineHeight": "{font.lineheight.md}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada, utilizada para indicar um valor que não está mais em vigência, como o de uma compra cancelada."
+        },
+        "strongstrike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.xl}",
+            "lineHeight": "{font.lineheight.md}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada e em negrito, utilizada para destacar um valor que não está mais em vigência, como o de uma compra cancelada."
+        }
+      },
+      "md": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Utilizado quando há múltiplos valores monetários ou numéricos com a mesma hierarquia em uma mesma página."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar a informação na página."
+        },
+        "strike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada, utilizada para indicar um valor que não está mais em vigência, como o de uma compra cancelada."
+        },
+        "strongstrike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada e em negrito, utilizada para destacar um valor que não está mais em vigência, como o de uma compra cancelada."
+        }
+      },
+      "sm": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.xs}"
+          },
+          "type": "typography",
+          "description": "Utilizado quando há múltiplos valores monetários ou numéricos com a mesma hierarquia em uma mesma página."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.xs}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar a informação na página."
+        },
+        "strike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.numbers}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.xs}",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada, utilizada para indicar um valor que não está mais em vigência, como o de uma compra cancelada."
+        },
+        "strongstrike": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.xs",
+            "textDecoration": "{font.decoration.strike}"
+          },
+          "type": "typography",
+          "description": "Versão riscada e em negrito, utilizada para destacar um valor que não está mais em vigência, como o de uma compra cancelada."
+        }
+      }
+    },
+    "ui": {
+      "lg": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.ui}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Utilizado em variantes grandes de elementos e componentes de interface como botões, labels, abas, formulários etc."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.lg}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar certas palavras."
+        }
+      },
+      "md": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.ui}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Utilizado em elementos e componentes de interface como botões, labels, abas, formulários etc."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.md}",
+            "lineHeight": "{font.lineheight.md}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar certas palavras."
+        }
+      },
+      "sm": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.ui}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.xs}"
+          },
+          "type": "typography",
+          "description": "Utilizado em variantes pequenas de elementos e componentes de interface como botões, labels, abas, formulários etc."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.sm}",
+            "lineHeight": "{font.lineheight.xs}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar certas palavras."
+        }
+      },
+      "xs": {
+        "default": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.ui}",
+            "fontSize": "{font.size.2xs}",
+            "lineHeight": "{font.lineheight.2xs}"
+          },
+          "type": "typography",
+          "description": "Utilizado apenas em casos de exceção em que há limitação de espaço, como nos labels do menu de navegação. Evite usar em cenários em que a legibilidade é imprescindível."
+        },
+        "strong": {
+          "value": {
+            "fontFamily": "{font.face.brand}",
+            "fontWeight": "{font.weight.bold}",
+            "fontSize": "{font.size.2xs}",
+            "lineHeight": "{font.lineheight.2xs}"
+          },
+          "type": "typography",
+          "description": "Variação em negrito, utilizada para destacar certas palavras."
+        }
+      }
+    }
+  }
+}

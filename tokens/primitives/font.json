@@ -1,0 +1,58 @@
+{
+  "font": {
+    "style": {
+      "normal": {
+        "value": "normal",
+        "type": "text",
+        "description": "Usado para resetar o valor da propriedade `font-style` para o valor padrão."
+      },
+      "italic": {
+        "value": "italic",
+        "type": "text",
+        "description": "Usado em conjunto com tokens tipográficos como modificador para textos em itálico."
+      }
+    },
+    "case": {
+      "upper": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "lower": {
+        "value": "lowercase",
+        "type": "textCase"
+      }
+    },
+    "scale": {
+      "major2nd": {
+        "value": "1.125",
+        "type": "number"
+      },
+      "minor3rd": {
+        "value": "1.2",
+        "type": "number"
+      },
+      "major3rd": {
+        "value": "1.25",
+        "type": "number"
+      },
+      "perfect4th": {
+        "value": "1.333",
+        "type": "number"
+      }
+    },
+    "decoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "strike": {
+        "value": "line-through",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    }
+  }
+}

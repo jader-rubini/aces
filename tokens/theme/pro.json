@@ -1,0 +1,123 @@
+{
+  "color": {
+    "neutral": {
+      "value": "gray",
+      "type": "text",
+      "description": "Cor da paleta global que será usada como tons neutros da interface."
+    },
+    "accent": {
+      "value": "red",
+      "type": "text",
+      "description": "Cor da paleta global que será usada como accent nos elementos interativos primários da interface."
+    },
+    "gradient-highlight": {
+      "value": "orange",
+      "type": "text",
+      "description": "Cor da paleta global que será usada como highlight dos degradês na interface."
+    },
+    "info": {
+      "value": "blue",
+      "type": "text",
+      "description": "Cor da paleta global que será usada em avisos e mensagens informativas."
+    },
+    "success": {
+      "value": "green",
+      "type": "text",
+      "description": "Cor da paleta global que será usada em avisos e mensagens de sucesso."
+    },
+    "warning": {
+      "value": "yellow",
+      "type": "text",
+      "description": "Cor da paleta global que será usada em avisos e mensagens de alertas não-críticos."
+    },
+    "danger": {
+      "value": "pink",
+      "type": "text",
+      "description": "Cor da paleta global que será usada em mensagens de erro e alertas críticos."
+    }
+  },
+  "font": {
+    "face": {
+      "brand": {
+        "value": "Cabinet Grotesk Variable",
+        "type": "fontFamilies",
+        "description": "Usada em títulos e elementos de interface"
+      },
+      "body": {
+        "value": "{font.face.brand}",
+        "type": "fontFamilies",
+        "description": "Usada em textos corridos e demais snippets de texto que não correspondem a um elemento de interface"
+      },
+      "fallback": {
+        "value": "system-ui",
+        "type": "fontFamilies",
+        "description": "Fonte utilizada como último recurso caso as fontes principal e alternativa não estejam disponíveis."
+      },
+      "family": {
+        "value": "sans-serif",
+        "type": "fontFamilies",
+        "description": "Família de fontes a ser utilizada como último recurso de alternativas."
+      }
+    },
+    "letterspacing": {
+      "tighter": {
+        "value": "-0.5",
+        "type": "letterSpacing"
+      },
+      "tight": {
+        "value": "-0.25",
+        "type": "letterSpacing"
+      },
+      "normal": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "loose": {
+        "value": "0.25",
+        "type": "letterSpacing"
+      },
+      "comfortable": {
+        "value": "0.5",
+        "type": "letterSpacing"
+      }
+    },
+    "weight": {
+      "bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "light": {
+        "value": "350",
+        "type": "fontWeights"
+      },
+      "regular": {
+        "value": "450",
+        "type": "fontWeights"
+      },
+      "semibold": {
+        "value": "500",
+        "type": "fontWeights"
+      }
+    },
+    "size": {
+      "base": {
+        "value": "18",
+        "type": "fontSizes"
+      }
+    },
+    "scale": {
+      "mobile": {
+        "value": "{font.scale.major2nd}",
+        "type": "number"
+      },
+      "tablet": {
+        "value": "{font.scale.major2nd}",
+        "type": "number"
+      },
+      "desktop": {
+        "value": "{font.scale.major2nd}",
+        "type": "number"
+      }
+    }
+  }
+}
