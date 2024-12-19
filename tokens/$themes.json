@@ -5,7 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/unit": "enabled",
-      "primitives/font": "enabled"
+      "primitives/font": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "primitives"
   },
@@ -14,7 +15,8 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color-scheme/light": "enabled"
+      "color-scheme/light": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "color-scheme"
   },
@@ -23,7 +25,8 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "color-scheme/dark": "enabled"
+      "color-scheme/dark": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "color-scheme"
   },
@@ -32,7 +35,8 @@
     "name": "mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "breakpoint/mobile": "enabled"
+      "breakpoint/mobile": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "breakpoint"
   },
@@ -41,7 +45,8 @@
     "name": "tablet",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "breakpoint/tablet": "enabled"
+      "breakpoint/tablet": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "breakpoint"
   },
@@ -50,7 +55,8 @@
     "name": "desktop",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "breakpoint/desktop": "enabled"
+      "breakpoint/desktop": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "breakpoint"
   },
@@ -64,7 +70,8 @@
       "semantic/size": "enabled",
       "semantic/typography": "source",
       "component/typography": "enabled",
-      "theme/bank": "enabled"
+      "theme/bank": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "theme"
   },
@@ -78,7 +85,8 @@
       "semantic/size": "enabled",
       "semantic/typography": "source",
       "component/typography": "enabled",
-      "theme/pro": "enabled"
+      "theme/pro": "enabled",
+      "semantic/color": "disabled"
     },
     "group": "theme"
   }
