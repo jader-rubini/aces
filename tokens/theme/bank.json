@@ -413,7 +413,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.low}",
+                "value": "{opacity.medium}",
                 "space": "lch"
               }
             }
@@ -427,7 +427,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.medium}",
+                "value": "{opacity.high}",
                 "space": "lch"
               }
             }
@@ -443,7 +443,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.low}",
+                "value": "{opacity.medium}",
                 "space": "lch"
               }
             }
@@ -457,7 +457,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.medium}",
+                "value": "{opacity.high}",
                 "space": "lch"
               }
             }
@@ -473,7 +473,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.low}",
+                "value": "{opacity.medium}",
                 "space": "lch"
               }
             }
@@ -487,7 +487,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.medium}",
+                "value": "{opacity.high}",
                 "space": "lch"
               }
             }
@@ -497,13 +497,13 @@
       },
       "warning": {
         "soft": {
-          "value": "{color.yellow.700}",
+          "value": "{color.yellow.600}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.low}",
+                "value": "{opacity.medium}",
                 "space": "lch"
               }
             }
@@ -511,13 +511,13 @@
           "description": "Use em sombras e superfícies semitransparentes, como overlays."
         },
         "intense": {
-          "value": "{color.yellow.700}",
+          "value": "{color.yellow.600}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.medium}",
+                "value": "{opacity.high}",
                 "space": "lch"
               }
             }
@@ -533,7 +533,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.low}",
+                "value": "{opacity.medium}",
                 "space": "lch"
               }
             }
@@ -547,7 +547,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "{opacity.medium}",
+                "value": "{opacity.high}",
                 "space": "lch"
               }
             }

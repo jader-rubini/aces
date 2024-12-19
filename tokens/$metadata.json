@@ -11,7 +11,9 @@
     "semantic/gradient",
     "semantic/opacity",
     "semantic/size",
+    "semantic/elevation",
     "semantic/typography",
+    "component/elevation",
     "component/typography",
     "theme/bank",
     "theme/pro"
