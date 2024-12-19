@@ -1,39 +1,560 @@
 {
   "color": {
-    "neutral": {
-      "value": "gray",
-      "type": "text",
-      "description": "Cor da paleta global que será usada como tons neutros da interface."
+    "surface": {
+      "neutral": {
+        "default": {
+          "value": "{color.gray.0}",
+          "type": "color",
+          "description": "A superfície de nível mais baixo, usada na maioria dos componentes."
+        },
+        "soft": {
+          "value": "{color.gray.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas, como em cards neutros."
+        },
+        "strong": {
+          "value": "{color.gray.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadasda interface, como o estado de hover de um card neutro."
+        },
+        "inverse": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "description": "Use em casos em que haja necessidade de alto contraste para destacar o elemento, como um tooltip."
+        }
+      },
+      "accent": {
+        "softer": {
+          "value": "{color.red.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.red.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.red.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "info": {
+        "softer": {
+          "value": "{color.blue.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.blue.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.blue.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.blue.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "success": {
+        "softer": {
+          "value": "{color.green.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.green.200}",
+          "type": "color",
+          "description": "Utilize como cor de preenchimento de elementos de maior proeminência na interface, como um card."
+        },
+        "default": {
+          "value": "{color.green.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "warning": {
+        "softer": {
+          "value": "{color.yellow.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.yellow.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.yellow.500}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.yellow.600}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "danger": {
+        "softer": {
+          "value": "{color.pink.100}",
+          "type": "color",
+          "description": "Use para delinear superfícies sem usar bordas."
+        },
+        "soft": {
+          "value": "{color.pink.200}",
+          "type": "color",
+          "description": "Use para destacar superfícies delineadas da interface."
+        },
+        "default": {
+          "value": "{color.pink.600}",
+          "type": "color",
+          "description": "Use para indicar elementos interativos de relevância primária, como botões."
+        },
+        "strong": {
+          "value": "{color.pink.700}",
+          "type": "color",
+          "description": "Use para destacar elementos interativos primários, comoseu estado de hover."
+        }
+      },
+      "gradient": {
+        "highlight": {
+          "value": "{color.orange.500}",
+          "type": "color",
+          "description": "Usado como a cor de highlight dos degradês."
+        },
+        "base": {
+          "value": "{color.surface.accent.default}",
+          "type": "color",
+          "description": "Usado como a cor ppinkominante dos degradês."
+        },
+        "shade": {
+          "value": "{color.surface.accent.strong}",
+          "type": "color",
+          "description": "Usado como o tom inicial dos degradês."
+        }
+      }
     },
-    "accent": {
-      "value": "red",
-      "type": "text",
-      "description": "Cor da paleta global que será usada como accent nos elementos interativos primários da interface."
+    "border": {
+      "neutral": {
+        "default": {
+          "value": "{color.gray.200}",
+          "type": "color",
+          "description": "Use para delinear o contornode elementos não-interativos, como cards de conteúdo."
+        },
+        "interactive": {
+          "value": "{color.gray.300}",
+          "type": "color",
+          "description": "Use para delinear o contornode elementos interativos,como campos de formulário."
+        },
+        "strong": {
+          "value": "{color.gray.500}",
+          "type": "color",
+          "description": "Use para realçar sutilmenteo contorno de elementos interativos, como seu estadode hover."
+        },
+        "stronger": {
+          "value": "{color.gray.700}",
+          "type": "color",
+          "description": "Use para destacar o contorno de elementos interativos, como seu estado de focus."
+        },
+        "inverse": {
+          "value": "{color.gray.0}",
+          "type": "color",
+          "description": "Use para criar um efeito \"cutout\" em elementos posicionado sobre a cor de superfície padrão."
+        }
+      },
+      "semantic": {
+        "accent": {
+          "value": "{color.surface.accent.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos primários."
+        },
+        "info": {
+          "value": "{color.surface.info.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado informativo."
+        },
+        "success": {
+          "value": "{color.surface.success.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado positivo."
+        },
+        "warning": {
+          "value": "{color.surface.warning.strong}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem um estado de suspense ou não-crítico."
+        },
+        "danger": {
+          "value": "{color.surface.danger.default}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado negativo."
+        }
+      }
     },
-    "gradient-highlight": {
-      "value": "orange",
-      "type": "text",
-      "description": "Cor da paleta global que será usada como highlight dos degradês na interface."
+    "text": {
+      "neutral": {
+        "soft": {
+          "value": "{color.gray.500}",
+          "type": "color",
+          "description": "Use em textos de relevância secundária, como textos de apoio, legendas e textos legais."
+        },
+        "default": {
+          "value": "{color.gray.800}",
+          "type": "color",
+          "description": "Cor padrão para os textos em nossas interfaces."
+        },
+        "strong": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "description": "Use para realçar textose em elementos textuaisde relevância primária,como títulos."
+        },
+        "inverse": {
+          "value": "{color.gray.0}",
+          "type": "color",
+          "description": "Use em casos especiais em que haja a necessidade que a cor do texto seja igual à cor de fundo da interface."
+        }
+      },
+      "accent": {
+        "base": {
+          "value": "{color.red.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativos, como links e botões."
+        },
+        "strong": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "description": "Use para realçar textosde elementos interativos,como seu estado de hover."
+        }
+      },
+      "info": {
+        "base": {
+          "value": "{color.blue.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativos informativos, como links e botões."
+        },
+        "strong": {
+          "value": "{color.blue.700}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos informativos, como seu estadode hover."
+        },
+        "default": {
+          "value": "{color.blue.900}",
+          "type": "color",
+          "description": "Use em passagens de textos informativos não-interativos."
+        }
+      },
+      "success": {
+        "base": {
+          "value": "{color.green.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativospositivos, como links e botões em uma mensagem de sucesso."
+        },
+        "strong": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos positivos, como o estadode hover de um link."
+        },
+        "default": {
+          "value": "{color.green.900}",
+          "type": "color",
+          "description": "Use em textos não-interativos de conotação positiva, como mensagens de sucesso."
+        }
+      },
+      "warning": {
+        "base": {
+          "value": "{color.yellow.700}",
+          "type": "color",
+          "description": "Use em textos de elementos interativosnão-críticos, como links e botões em uma mensagem de alerta."
+        },
+        "strong": {
+          "value": "{color.yellow.800}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos não-críticos, como o estadode hover de um link."
+        },
+        "default": {
+          "value": "{color.yellow.900}",
+          "type": "color",
+          "description": "Use em textos não-interativos não-críticos, como mensagens de alerta."
+        }
+      },
+      "danger": {
+        "base": {
+          "value": "{color.pink.600}",
+          "type": "color",
+          "description": "Use em textos de elementos interativosnegativos, como links e botões em uma mensagem de erro."
+        },
+        "strong": {
+          "value": "{color.pink.700}",
+          "type": "color",
+          "description": "Use para realçar textos de elementos interativos negativos, como o estadode hover de um link."
+        },
+        "default": {
+          "value": "{color.pink.900}",
+          "type": "color",
+          "description": "Use em textos não-interativos de conotação negativa, como mensagens de erro."
+        }
+      }
     },
-    "info": {
-      "value": "blue",
-      "type": "text",
-      "description": "Cor da paleta global que será usada em avisos e mensagens informativas."
+    "icon": {
+      "neutral": {
+        "soft": {
+          "value": "{color.border.neutral.interactive}",
+          "type": "color",
+          "description": "Use em ícones de relevância secundária."
+        },
+        "default": {
+          "value": "{color.text.neutral.default}",
+          "type": "color",
+          "description": "Cor padrão para ícones."
+        },
+        "strong": {
+          "value": "{color.text.neutral.strong}",
+          "type": "color",
+          "description": "Use para realçar ícones de relevância primária, como em seu estado de hover."
+        },
+        "inverse": {
+          "value": "{color.text.neutral.inverse}",
+          "type": "color",
+          "description": "Use em casos especiais em que haja a necessidade que a cor do ícone seja igual à cor de fundo da interface."
+        }
+      },
+      "semantic": {
+        "accent": {
+          "value": "{color.text.accent.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos interativos."
+        },
+        "info": {
+          "value": "{color.text.info.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos informativos."
+        },
+        "success": {
+          "value": "{color.text.success.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos que indiquem uma situação ou estado positivo."
+        },
+        "warning": {
+          "value": "{color.surface.warning.strong}",
+          "type": "color",
+          "description": "Use em ícones de elementos que indiquem um estado de alerta não-crítico."
+        },
+        "danger": {
+          "value": "{color.text.danger.base}",
+          "type": "color",
+          "description": "Use em ícones de elementos que indiquem uma situação ou estado negativo."
+        }
+      }
     },
-    "success": {
-      "value": "green",
-      "type": "text",
-      "description": "Cor da paleta global que será usada em avisos e mensagens de sucesso."
+    "utility": {
+      "light": {
+        "value": "{color.neutral.light}",
+        "type": "color",
+        "description": "Use quando há necessidade de que a cor se mantenha semprea mesma, independente do tema aplicado à interface."
+      },
+      "dark": {
+        "value": "{color.neutral.dark}",
+        "type": "color",
+        "description": "Use quando há necessidade de que a cor se mantenha semprea mesma, independente do tema aplicado à interface."
+      }
     },
-    "warning": {
-      "value": "yellow",
-      "type": "text",
-      "description": "Cor da paleta global que será usada em avisos e mensagens de alertas não-críticos."
-    },
-    "danger": {
-      "value": "pink",
-      "type": "text",
-      "description": "Cor da paleta global que será usada em mensagens de erro e alertas críticos."
+    "shadow": {
+      "neutral": {
+        "soft": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.low}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.medium}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      },
+      "accent": {
+        "soft": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.low}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.medium}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      },
+      "info": {
+        "soft": {
+          "value": "{color.blue.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.low}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "{color.blue.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.medium}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      },
+      "success": {
+        "soft": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.low}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.medium}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      },
+      "warning": {
+        "soft": {
+          "value": "{color.yellow.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.low}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "{color.yellow.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.medium}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      },
+      "danger": {
+        "soft": {
+          "value": "{color.pink.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.low}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        },
+        "intense": {
+          "value": "{color.pink.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.medium}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Use em sombras e superfícies semitransparentes, como overlays."
+        }
+      }
     }
   },
   "font": {
@@ -59,44 +580,41 @@
         "description": "Família de fontes a ser utilizada como último recurso de alternativas."
       }
     },
-    "letterspacing": {
-      "tighter": {
-        "value": "-0.5",
-        "type": "letterSpacing"
-      },
-      "tight": {
-        "value": "-0.25",
-        "type": "letterSpacing"
-      },
-      "normal": {
-        "value": "0",
-        "type": "letterSpacing"
-      },
-      "loose": {
-        "value": "0.25",
-        "type": "letterSpacing"
-      },
-      "comfortable": {
-        "value": "0.5",
-        "type": "letterSpacing"
-      }
-    },
     "weight": {
-      "bold": {
-        "value": "700",
-        "type": "fontWeights"
+      "heading": {
+        "value": "{font.weight.bold}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de heading."
       },
-      "light": {
-        "value": "350",
-        "type": "fontWeights"
+      "subtitle": {
+        "value": "{font.weight.light}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de subtitle."
       },
-      "regular": {
-        "value": "450",
-        "type": "fontWeights"
+      "overline": {
+        "value": "{font.weight.bold}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de overline."
       },
-      "semibold": {
-        "value": "500",
-        "type": "fontWeights"
+      "body": {
+        "value": "{font.weight.regular}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de body copy."
+      },
+      "longform": {
+        "value": "{font.weight.regular}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de longform."
+      },
+      "numbers": {
+        "value": "{font.weight.semibold}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de numbers."
+      },
+      "ui": {
+        "value": "{font.weight.semibold}",
+        "type": "fontWeights",
+        "description": "Font-weight padrão para estilos de elementos de UI."
       }
     },
     "size": {
@@ -115,7 +633,7 @@
         "type": "number"
       },
       "desktop": {
-        "value": "{font.scale.major2nd}",
+        "value": "{font.scale.major3rd}",
         "type": "number"
       }
     }

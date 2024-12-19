@@ -1,24 +1,29 @@
 {
   "opacity": {
     "transparent": {
-      "value": "{opacity.transparent}",
-      "type": "number"
+      "value": "0",
+      "type": "number",
+      "description": "Usado para deixar o elemento totalmente invisível."
     },
     "low": {
-      "value": "{opacity.low}",
-      "type": "number"
+      "value": "0.12",
+      "type": "number",
+      "description": "Usado principalmente em sombras sutis."
     },
     "medium": {
-      "value": "{opacity.medium}",
-      "type": "number"
+      "value": "0.32",
+      "type": "number",
+      "description": "Usado principalmente em sombras intensas."
     },
     "high": {
-      "value": "{opacity.high}",
-      "type": "number"
+      "value": "0.64",
+      "type": "number",
+      "description": "Usado principalmente em overlays."
     },
     "opaque": {
-      "value": "{opacity.opaque}",
-      "type": "number"
+      "value": "1",
+      "type": "number",
+      "description": "Totalmente opaco."
     }
   }
 }
