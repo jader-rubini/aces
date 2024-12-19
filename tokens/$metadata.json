@@ -8,7 +8,7 @@
     "breakpoint/tablet",
     "breakpoint/desktop",
     "semantic/border",
-    "semantic/color",
+    "semantic/gradient",
     "semantic/opacity",
     "semantic/size",
     "semantic/typography",

@@ -6,7 +6,7 @@
     "selectedTokenSets": {
       "primitives/unit": "enabled",
       "primitives/font": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "disabled"
     },
     "group": "primitives"
   },
@@ -16,7 +16,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "color-scheme/light": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "disabled"
     },
     "group": "color-scheme"
   },
@@ -26,7 +26,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "color-scheme/dark": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "disabled"
     },
     "group": "color-scheme"
   },
@@ -36,7 +36,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "breakpoint/mobile": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "disabled"
     },
     "group": "breakpoint"
   },
@@ -46,7 +46,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "breakpoint/tablet": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "disabled"
     },
     "group": "breakpoint"
   },
@@ -56,7 +56,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "breakpoint/desktop": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "disabled"
     },
     "group": "breakpoint"
   },
@@ -71,7 +71,7 @@
       "semantic/typography": "source",
       "component/typography": "enabled",
       "theme/bank": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "enabled"
     },
     "group": "theme"
   },
@@ -86,7 +86,7 @@
       "semantic/typography": "source",
       "component/typography": "enabled",
       "theme/pro": "enabled",
-      "semantic/color": "disabled"
+      "semantic/gradient": "enabled"
     },
     "group": "theme"
   }
