@@ -1,31 +1,31 @@
 {
   "gradient": {
     "accent": {
-      "value": "linear-gradient(35deg, {color.surface.gradient.shade} 0%, {color.surface.gradient.base} 35%, {color.surface.gradient.base} 70%, {color.surface.gradient.highlight} 100%)",
+      "value": "linear-gradient(45deg, {color.surface.gradient.shade} 0%, {color.surface.gradient.base} 35%, {color.surface.gradient.base} 70%, {color.surface.gradient.highlight} 100%)",
       "type": "color",
       "description": "Degradê usado para realçar superfícies que abrigam conteúdo de alta relevância, e em elementos interativos como botões e controles de formulário."
     },
     "neutral": {
       "base": {
         "fromtop": {
-          "value": "radial-gradient(ellipse at top, {color.gray.100} 0%, {color.gray.0} 35%)",
+          "value": "radial-gradient(circle at 50% -25%, {color.gray.100}, {color.gray.0} 50%)",
           "type": "color",
           "description": "Degradê utilizado para realçar seções de conteúdo."
         },
         "frombottom": {
-          "value": "radial-gradient(ellipse at bottom, {color.gray.100} 0%, {color.gray.0} 35%)",
+          "value": "radial-gradient(circle at 50% 125%, {color.gray.100}, {color.gray.0} 50%)",
           "type": "color",
           "description": "Degradê utilizado para realçar seções de conteúdo."
         }
       },
       "inverse": {
         "fromtop": {
-          "value": "radial-gradient(ellipse at top, {color.gray.700} 0%, {color.gray.900} 35%)",
+          "value": "radial-gradient(circle at 50% -25%, {color.gray.700}, {color.gray.900} 50%)",
           "type": "color",
           "description": "Degradê utilizado para realçar seções de conteúdo."
         },
         "frombottom": {
-          "value": "radial-gradient(ellipse at bottom, {color.gray.700} 0%, {color.gray.900} 35%)",
+          "value": "radial-gradient(circle at 50% 125%, {color.gray.700}, {color.gray.900} 50%)",
           "type": "color",
           "description": "Degradê utilizado para realçar seções de conteúdo."
         }
