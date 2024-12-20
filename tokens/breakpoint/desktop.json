@@ -179,7 +179,7 @@
         "description": "Espaçamento padrão entre colunas do grid principal do site."
       },
       "margin": {
-        "value": "83",
+        "value": "80",
         "type": "spacing",
         "description": "Margens horizontais externas do container principal do site."
       }

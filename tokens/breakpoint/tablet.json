@@ -174,12 +174,12 @@
   "grid": {
     "space": {
       "gap": {
-        "value": "{unit.positive.xl}",
+        "value": "{unit.positive.3xl}",
         "type": "spacing",
         "description": "Espaçamento padrão entre colunas do grid principal do site."
       },
       "margin": {
-        "value": "{unit.positive.4xl}",
+        "value": "{unit.positive.5xl}",
         "type": "spacing",
         "description": "Margens horizontais externas do container principal do site."
       }
