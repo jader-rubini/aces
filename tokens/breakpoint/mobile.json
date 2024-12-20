@@ -132,12 +132,12 @@
         "description": "Utilize para definir o gap vertical entre elementos de interface grandes ou de baixa densidade."
       },
       "2xl": {
-        "value": "{unit.positive.4xl}",
+        "value": "{unit.positive.5xl}",
         "type": "spacing",
         "description": "Utilize para definir o gap vertical entre seções de layout."
       },
       "3xl": {
-        "value": "{unit.positive.5xl}",
+        "value": "{unit.positive.6xl}",
         "type": "spacing",
         "description": "Utilize para definir o gap vertical entre seções de layout."
       },
