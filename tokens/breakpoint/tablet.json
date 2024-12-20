@@ -186,7 +186,7 @@
     },
     "column": {
       "count": {
-        "value": "12",
+        "value": "6",
         "type": "number",
         "description": "Contagem de colunas do grid principal, utilizado como referência para dimensionamento dos elementos e componentes de interface."
       }
