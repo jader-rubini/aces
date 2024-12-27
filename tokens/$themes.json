@@ -424,6 +424,7 @@
       "space.inset.md": "e0c069d1b97c145724f47074d0c02baca13b810e",
       "space.inset.lg": "b81add9b0307c2de960b8ab64da8f175f570d5bd",
       "space.inset.xl": "c3185ed6e726e6190b4a3886aa9c355395e84408",
+      "space.inset.2xl": "00c1f8ce239169a796642bdef27cdb6128770df1",
       "space.inline.none": "3212e187dc252503aa24232231e6342f3379c3f8",
       "space.inline.2xs": "305ed04d6abca28b3c4507f04858e38f9bd6a00d",
       "space.inline.xs": "c048e7ac5777df03442a0317acd9e2d58c51da73",
@@ -450,8 +451,7 @@
       "font.scale": "3377f37fca65bcd2db51489a691c6e4582b025d3",
       "grid.space.gap": "e2d17034abe1f98c28e8b06384a662485fc6cea5",
       "grid.space.margin": "13b1bf737cd3df2ea29b9ec69a4d5a0cd424632a",
-      "grid.column.count": "c2c3fa400a4895c73d7f156558a83cb479c4504d",
-      "space.inset.2xl": "00c1f8ce239169a796642bdef27cdb6128770df1"
+      "grid.column.count": "c2c3fa400a4895c73d7f156558a83cb479c4504d"
     }
   },
   {
