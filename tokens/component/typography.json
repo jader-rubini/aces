@@ -16,7 +16,7 @@
         "value": {
           "fontWeight": "{font.weight.heading}",
           "fontFamily": "{font.face.brand}",
-          "fontSize": "{font.size.xl}",
+          "fontSize": "{font.size.3xl}",
           "lineHeight": "{font.lineheight.xl}",
           "letterSpacing": "{font.letterspacing.tight}"
         },
