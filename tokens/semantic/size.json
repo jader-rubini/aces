@@ -46,7 +46,7 @@
         "description": "Use para definir a espessura das linhas divisórias na interface."
       },
       "thick": {
-        "value": "{unit.positive.sm}",
+        "value": "{unit.positive.md}",
         "type": "sizing",
         "description": "Use para definir a espessura das linhas divisórias na interface."
       },
