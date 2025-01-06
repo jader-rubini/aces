@@ -55,6 +55,28 @@
         "type": "sizing",
         "description": "Use para definir a espessura das linhas divisórias na interface."
       }
+    },
+    "thumb": {
+      "sm": {
+        "value": "{unit.positive.4xl}",
+        "type": "sizing",
+        "description": "Use para definir as dimensões de avatares e thumbnails em componentes densos ou de tamanho reduzido."
+      },
+      "md": {
+        "value": "{unit.positive.5xl}",
+        "type": "sizing",
+        "description": "Tamanho padrão de avatares e thumbnails."
+      },
+      "lg": {
+        "value": "{unit.positive.6xl}",
+        "type": "sizing",
+        "description": "Use para definir a dimensão de thumbnails e avatares de mais destaque na interface. Não deve ser usado em mais de um ou dois elementos na mesma página."
+      },
+      "xl": {
+        "value": "{unit.positive.7xl}",
+        "type": "sizing",
+        "description": "Use para definir as dimensões de thumbnails e avatares de destaque na interface. Não deve ser usado em mais de um elemento na mesma página."
+      }
     }
   }
 }
