@@ -179,28 +179,61 @@
           "description": "Use para criar um efeito \"cutout\" em elementos posicionado sobre a cor de superfície padrão."
         }
       },
-      "semantic": {
-        "accent": {
+      "accent": {
+        "soft": {
+          "value": "{color.surface.accent.soft}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos secundários."
+        },
+        "default": {
           "value": "{color.surface.accent.default}",
           "type": "color",
           "description": "Use para realçar o contorno de elementos interativos primários."
+        }
+      },
+      "info": {
+        "soft": {
+          "value": "{color.surface.info.soft}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos secundários que indiquem uma situação ou estado informativo."
         },
-        "info": {
+        "default": {
           "value": "{color.surface.info.default}",
           "type": "color",
           "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado informativo."
+        }
+      },
+      "success": {
+        "soft": {
+          "value": "{color.surface.success.soft}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos secundários que indiquem uma situação ou estado positivo."
         },
-        "success": {
+        "default": {
           "value": "{color.surface.success.default}",
           "type": "color",
           "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado positivo."
+        }
+      },
+      "warning": {
+        "soft": {
+          "value": "{color.surface.warning.soft}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos secundários que indiquem um estado de suspense ou não-crítico."
         },
-        "warning": {
+        "default": {
           "value": "{color.surface.warning.strong}",
           "type": "color",
           "description": "Use para realçar o contorno de elementos interativos que indiquem um estado de suspense ou não-crítico."
+        }
+      },
+      "danger": {
+        "soft": {
+          "value": "{color.surface.danger.soft}",
+          "type": "color",
+          "description": "Use para realçar o contorno de elementos interativos secundários que indiquem uma situação ou estado negativo."
         },
-        "danger": {
+        "default": {
           "value": "{color.surface.danger.default}",
           "type": "color",
           "description": "Use para realçar o contorno de elementos interativos que indiquem uma situação ou estado negativo."
