@@ -125,7 +125,7 @@
       }
     },
     "accent": {
-      "medium": {
+      "low": {
         "value": [
           {
             "x": "{elevation.distance.md}",
@@ -141,6 +141,28 @@
             "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.accent.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
+      },
+      "medium": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.xl}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.accent.intense}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.2xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.accent.intense}",
             "type": "dropShadow"
           }
         ],
@@ -171,7 +193,7 @@
       }
     },
     "info": {
-      "medium": {
+      "low": {
         "value": [
           {
             "x": "{elevation.distance.md}",
@@ -187,6 +209,28 @@
             "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.info.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
+      },
+      "medium": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.xl}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.info.intense}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.2xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.info.intense}",
             "type": "dropShadow"
           }
         ],
@@ -217,7 +261,7 @@
       }
     },
     "success": {
-      "medium": {
+      "low": {
         "value": [
           {
             "x": "{elevation.distance.md}",
@@ -233,6 +277,28 @@
             "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.success.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
+      },
+      "medium": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.xl}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.success.intense}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.2xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.success.intense}",
             "type": "dropShadow"
           }
         ],
@@ -263,7 +329,7 @@
       }
     },
     "warning": {
-      "medium": {
+      "low": {
         "value": [
           {
             "x": "{elevation.distance.md}",
@@ -279,6 +345,28 @@
             "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.warning.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
+      },
+      "medium": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.xl}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.warning.intense}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.2xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.warning.intense}",
             "type": "dropShadow"
           }
         ],
@@ -309,7 +397,7 @@
       }
     },
     "danger": {
-      "medium": {
+      "low": {
         "value": [
           {
             "x": "{elevation.distance.md}",
@@ -325,6 +413,28 @@
             "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.danger.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
+      },
+      "medium": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.xl}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.danger.intense}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.2xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.danger.intense}",
             "type": "dropShadow"
           }
         ],
