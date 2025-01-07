@@ -24,7 +24,7 @@
     },
     "scale": {
       "shrink": {
-        "value": "0.9",
+        "value": "0.95",
         "type": "sizing",
         "description": "Aplicado a componentes para diminuir proporcionalmente suas dimensões. Este token deve ser usado apenas para indicar interações do usuário, ou como estado inicial de elementos que serão animados a seu tamanho natural."
       },
