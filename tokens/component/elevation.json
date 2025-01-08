@@ -5,7 +5,7 @@
         "value": {
           "x": "{elevation.distance.md}",
           "y": "{elevation.distance.lg}",
-          "blur": "{elevation.blur.lg}",
+          "blur": "{elevation.blur.md}",
           "spread": "{elevation.spread.md}",
           "color": "{color.shadow.neutral.soft}",
           "type": "dropShadow"
@@ -18,15 +18,15 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.lg}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
@@ -39,16 +39,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.3xl}",
-            "blur": "{elevation.blur.3xl}",
+            "y": "{elevation.distance.4xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.neutral.intense}",
             "type": "dropShadow"
@@ -62,7 +62,7 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.sm}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
@@ -70,7 +70,7 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.2xs}",
-            "blur": "{elevation.blur.2xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
@@ -82,17 +82,17 @@
       "fromleft": {
         "value": [
           {
-            "x": "{elevation.distance.xl}",
+            "x": "{elevation.distance.2xl}",
             "y": "{elevation.distance.md}",
-            "blur": "{elevation.blur.xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
           },
           {
-            "x": "{elevation.distance.3xl}",
+            "x": "{elevation.distance.4xl}",
             "y": "{elevation.distance.md}",
-            "blur": "{elevation.blur.3xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.neutral.intense}",
             "type": "dropShadow"
@@ -106,7 +106,7 @@
           {
             "x": "{elevation.distance.xs}",
             "y": "{elevation.distance.md}",
-            "blur": "{elevation.blur.xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.neutral.soft}",
             "type": "dropShadow"
@@ -114,7 +114,7 @@
           {
             "x": "{elevation.distance.3xs}",
             "y": "{elevation.distance.md}",
-            "blur": "{elevation.blur.3xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.neutral.intense}",
             "type": "dropShadow"
@@ -122,6 +122,18 @@
         ],
         "type": "boxShadow",
         "description": "Usado em elementos que se sobrepõem à interface, ancorados ao lado direito da tela"
+      },
+      "inset": {
+        "value": {
+          "x": "{elevation.distance.md}",
+          "y": "{elevation.distance.xl}",
+          "blur": "{elevation.blur.sm}",
+          "spread": "{elevation.spread.md}",
+          "color": "{color.shadow.neutral.soft}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Usado para produzir um efeito como se o elemento estivesse \"afundado\" na tela, um nível abaixo da superfície. Evite usar em excesso e prefira aplicar em container de elementos interativos ou prominentes da tela."
       }
     },
     "accent": {
@@ -130,15 +142,15 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.lg}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.accent.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.accent.soft}",
             "type": "dropShadow"
@@ -151,16 +163,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.accent.intense}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.accent.intense}",
             "type": "dropShadow"
@@ -173,16 +185,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.accent.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.3xl}",
-            "blur": "{elevation.blur.3xl}",
+            "y": "{elevation.distance.4xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.accent.intense}",
             "type": "dropShadow"
@@ -198,15 +210,15 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.lg}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.info.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.info.soft}",
             "type": "dropShadow"
@@ -219,16 +231,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.info.intense}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.info.intense}",
             "type": "dropShadow"
@@ -241,16 +253,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.info.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.3xl}",
-            "blur": "{elevation.blur.3xl}",
+            "y": "{elevation.distance.4xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.info.intense}",
             "type": "dropShadow"
@@ -266,15 +278,15 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.lg}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.success.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.success.soft}",
             "type": "dropShadow"
@@ -287,16 +299,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.success.intense}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.success.intense}",
             "type": "dropShadow"
@@ -309,16 +321,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.success.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.3xl}",
-            "blur": "{elevation.blur.3xl}",
+            "y": "{elevation.distance.4xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.success.intense}",
             "type": "dropShadow"
@@ -334,15 +346,15 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.lg}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.warning.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.warning.soft}",
             "type": "dropShadow"
@@ -355,16 +367,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.warning.intense}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.warning.intense}",
             "type": "dropShadow"
@@ -377,16 +389,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.warning.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.3xl}",
-            "blur": "{elevation.blur.3xl}",
+            "y": "{elevation.distance.4xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.warning.intense}",
             "type": "dropShadow"
@@ -402,15 +414,15 @@
           {
             "x": "{elevation.distance.md}",
             "y": "{elevation.distance.lg}",
-            "blur": "{elevation.blur.lg}",
+            "blur": "{elevation.blur.md}",
             "spread": "{elevation.spread.md}",
             "color": "{color.shadow.danger.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.danger.soft}",
             "type": "dropShadow"
@@ -423,16 +435,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.danger.intense}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.2xl}",
-            "blur": "{elevation.blur.2xl}",
+            "y": "{elevation.distance.3xl}",
+            "blur": "{elevation.blur.xl}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.danger.intense}",
             "type": "dropShadow"
@@ -445,16 +457,16 @@
         "value": [
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.xl}",
-            "blur": "{elevation.blur.xl}",
+            "y": "{elevation.distance.2xl}",
+            "blur": "{elevation.blur.lg}",
             "spread": "{elevation.spread.sm}",
             "color": "{color.shadow.danger.soft}",
             "type": "dropShadow"
           },
           {
             "x": "{elevation.distance.md}",
-            "y": "{elevation.distance.3xl}",
-            "blur": "{elevation.blur.3xl}",
+            "y": "{elevation.distance.4xl}",
+            "blur": "{elevation.blur.2xl}",
             "spread": "{elevation.spread.xs}",
             "color": "{color.shadow.danger.intense}",
             "type": "dropShadow"

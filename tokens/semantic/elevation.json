@@ -31,44 +31,54 @@
         "type": "number",
         "description": "Usado nos eixos X e Y dos estilos de elevação."
       },
-      "xl": {
+      "2xl": {
         "value": "{unit.positive.sm}",
         "type": "number",
         "description": "Usado nos eixos X e Y dos estilos de elevação."
       },
-      "2xl": {
-        "value": "{unit.positive.md}",
+      "xl": {
+        "value": "{unit.positive.xs}",
         "type": "number",
         "description": "Usado nos eixos X e Y dos estilos de elevação."
       },
       "3xl": {
+        "value": "{unit.positive.md}",
+        "type": "number",
+        "description": "Usado nos eixos X e Y dos estilos de elevação."
+      },
+      "4xl": {
         "value": "{unit.positive.xl}",
         "type": "number",
         "description": "Usado nos eixos X e Y dos estilos de elevação."
       }
     },
     "blur": {
-      "md": {
+      "none": {
         "value": "{unit.positive.zero}",
         "type": "number",
         "description": "Usado nos estilos de elevação."
       },
-      "lg": {
+      "sm": {
+        "value": "{unit.positive.xs}",
+        "type": "number",
+        "description": "Usado nos estilos de elevação."
+      },
+      "md": {
         "value": "{unit.positive.sm}",
         "type": "number",
         "description": "Usado nos estilos de elevação."
       },
-      "xl": {
+      "lg": {
         "value": "{unit.positive.md}",
         "type": "number",
         "description": "Usado no blur dos estilos de elevação."
       },
-      "2xl": {
+      "xl": {
         "value": "{unit.positive.xl}",
         "type": "number",
         "description": "Usado no blur dos estilos de elevação."
       },
-      "3xl": {
+      "2xl": {
         "value": "{unit.positive.4xl}",
         "type": "number",
         "description": "Usado no blur dos estilos de elevação."
