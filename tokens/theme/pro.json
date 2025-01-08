@@ -134,20 +134,56 @@
         }
       },
       "gradient": {
-        "highlight": {
-          "value": "{color.orange.500}",
-          "type": "color",
-          "description": "Usado como a cor de highlight dos degradês."
+        "accent": {
+          "highlight": {
+            "value": "{color.orange.500}",
+            "type": "color",
+            "description": "Usado como a cor de highlight dos degradês."
+          },
+          "base": {
+            "value": "{color.surface.accent.default}",
+            "type": "color",
+            "description": "Usado como a cor ppinkominante dos degradês."
+          },
+          "shade": {
+            "value": "{color.surface.accent.strong}",
+            "type": "color",
+            "description": "Usado como o tom inicial dos degradês."
+          }
         },
-        "base": {
-          "value": "{color.surface.accent.default}",
-          "type": "color",
-          "description": "Usado como a cor ppinkominante dos degradês."
+        "success": {
+          "highlight": {
+            "value": "{color.green.500}",
+            "type": "color",
+            "description": "Usado como a cor de highlight dos degradês de valor semântico positivo."
+          },
+          "base": {
+            "value": "{color.surface.success.default}",
+            "type": "color",
+            "description": "Usado como a cor predominante dos degradês de valor semântico positivo."
+          },
+          "shade": {
+            "value": "{color.surface.success.strong}",
+            "type": "color",
+            "description": "Usado como o tom inicial dos degradês de valor semântico positivo."
+          }
         },
-        "shade": {
-          "value": "{color.surface.accent.strong}",
-          "type": "color",
-          "description": "Usado como o tom inicial dos degradês."
+        "danger": {
+          "highlight": {
+            "value": "{color.red.500}",
+            "type": "color",
+            "description": "Usado como a cor de highlight dos degradês de valor semântico negativo."
+          },
+          "base": {
+            "value": "{color.surface.danger.default}",
+            "type": "color",
+            "description": "Usado como a cor predominante dos degradês de valor semântico negativo."
+          },
+          "shade": {
+            "value": "{color.surface.danger.strong}",
+            "type": "color",
+            "description": "Usado como o tom inicial dos degradês de valor semântico negativo."
+          }
         }
       }
     },

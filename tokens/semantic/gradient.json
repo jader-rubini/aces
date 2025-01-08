@@ -1,10 +1,5 @@
 {
   "gradient": {
-    "accent": {
-      "value": "linear-gradient(45deg, {color.surface.gradient.shade} 0%, {color.surface.gradient.base} 35%, {color.surface.gradient.base} 70%, {color.surface.gradient.highlight} 100%)",
-      "type": "color",
-      "description": "Degradê usado para realçar superfícies que abrigam conteúdo de alta relevância, e em elementos interativos como botões e controles de formulário."
-    },
     "neutral": {
       "base": {
         "fromtop": {
@@ -29,6 +24,23 @@
           "type": "color",
           "description": "Degradê utilizado para realçar seções de conteúdo."
         }
+      }
+    },
+    "semantic": {
+      "accent": {
+        "value": "linear-gradient(45deg, {color.surface.gradient.accent.shade} 0%, {color.surface.gradient.accent.base} 35%, {color.surface.gradient.accent.base} 70%, {color.surface.gradient.accent.highlight} 100%)",
+        "type": "color",
+        "description": "Degradê usado para realçar superfícies que abrigam conteúdo de alta relevância, e em elementos interativos como botões e controles de formulário."
+      },
+      "success": {
+        "value": "linear-gradient(45deg, {color.surface.gradient.success.shade} 0%, {color.surface.gradient.success.base} 35%, {color.surface.gradient.success.base} 70%, {color.surface.gradient.success.highlight} 100%)",
+        "type": "color",
+        "description": "Degradê usado para realçar superfícies que abrigam conteúdo de alta relevância, e em elementos interativos como botões e controles de formulário."
+      },
+      "danger": {
+        "value": "linear-gradient(45deg, {color.surface.gradient.danger.shade} 0%, {color.surface.gradient.danger.base} 35%, {color.surface.gradient.danger.base} 70%, {color.surface.gradient.danger.highlight} 100%)",
+        "type": "color",
+        "description": "Degradê usado para realçar superfícies que abrigam conteúdo de alta relevância, e em elementos interativos como botões e controles de formulário."
       }
     }
   }
