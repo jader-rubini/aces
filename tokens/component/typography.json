@@ -500,7 +500,7 @@
             "fontFamily": "{font.face.brand}",
             "fontWeight": "{font.weight.ui}",
             "fontSize": "{font.size.sm}",
-            "lineHeight": "{font.lineheight.xs}"
+            "lineHeight": "{font.lineheight.sm}"
           },
           "type": "typography",
           "description": "Utilizado em variantes pequenas de elementos e componentes de interface como botões, labels, abas, formulários etc."
@@ -510,7 +510,7 @@
             "fontFamily": "{font.face.brand}",
             "fontWeight": "{font.weight.bold}",
             "fontSize": "{font.size.sm}",
-            "lineHeight": "{font.lineheight.xs}"
+            "lineHeight": "{font.lineheight.sm}"
           },
           "type": "typography",
           "description": "Variação em negrito, utilizada para destacar certas palavras."
