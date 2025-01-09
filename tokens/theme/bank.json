@@ -195,7 +195,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.higher}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -209,7 +209,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.higher}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -488,7 +488,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.low}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -502,7 +502,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.medium}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -518,7 +518,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.medium}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -532,7 +532,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.high}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -548,7 +548,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.medium}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -562,7 +562,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.high}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -578,7 +578,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.medium}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -592,7 +592,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.high}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -608,7 +608,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.medium}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -622,7 +622,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.high}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -638,7 +638,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "{opacity.medium}",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
