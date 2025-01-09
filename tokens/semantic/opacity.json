@@ -20,6 +20,11 @@
       "type": "opacity",
       "description": "Usado principalmente em overlays."
     },
+    "higher": {
+      "value": "0.85",
+      "type": "opacity",
+      "description": "Usado principalmente em overlays."
+    },
     "opaque": {
       "value": "1",
       "type": "opacity",

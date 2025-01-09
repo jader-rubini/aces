@@ -185,6 +185,36 @@
             "description": "Usado como o tom inicial dos degradês de valor semântico negativo."
           }
         }
+      },
+      "translucent": {
+        "default": {
+          "value": "{color.surface.neutral.default}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.higher}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Usado em elementos que se sobrepõem a outros elementos de interface, permitindo a visão parcial do conteúdo por eles cobertos."
+        },
+        "inverse": {
+          "value": "{color.surface.neutral.inverse}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{opacity.higher}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Usado em elementos que se sobrepõem a outros elementos de interface, permitindo a visão parcial do conteúdo por eles cobertos."
+        }
       }
     },
     "border": {
@@ -382,8 +412,13 @@
     },
     "icon": {
       "neutral": {
-        "soft": {
+        "softer": {
           "value": "{color.border.neutral.interactive}",
+          "type": "color",
+          "description": "Use em ícones inativos ou desabilitados."
+        },
+        "soft": {
+          "value": "{color.text.neutral.soft}",
           "type": "color",
           "description": "Use em ícones de relevância secundária."
         },
