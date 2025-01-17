@@ -202,6 +202,28 @@
         ],
         "type": "boxShadow",
         "description": "Usado em elementos que sobrepõem toda a interface, bloqueando o acesso a outros elementos, geralmente através de um overlay, como modais e caixas de diálogo."
+      },
+      "frombottom": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.sm}",
+            "blur": "{elevation.blur.md}",
+            "spread": "{elevation.spread.md}",
+            "color": "{color.shadow.accent.soft}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xs}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.accent.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
       }
     },
     "info": {
@@ -270,6 +292,28 @@
         ],
         "type": "boxShadow",
         "description": "Usado em elementos que sobrepõem toda a interface, bloqueando o acesso a outros elementos, geralmente através de um overlay, como modais e caixas de diálogo."
+      },
+      "frombottom": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.sm}",
+            "blur": "{elevation.blur.md}",
+            "spread": "{elevation.spread.md}",
+            "color": "{color.shadow.info.soft}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xs}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.info.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
       }
     },
     "success": {
@@ -338,6 +382,28 @@
         ],
         "type": "boxShadow",
         "description": "Usado em elementos que sobrepõem toda a interface, bloqueando o acesso a outros elementos, geralmente através de um overlay, como modais e caixas de diálogo."
+      },
+      "frombottom": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.sm}",
+            "blur": "{elevation.blur.md}",
+            "spread": "{elevation.spread.md}",
+            "color": "{color.shadow.success.soft}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xs}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.success.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
       }
     },
     "warning": {
@@ -406,6 +472,28 @@
         ],
         "type": "boxShadow",
         "description": "Usado em elementos que sobrepõem toda a interface, bloqueando o acesso a outros elementos, geralmente através de um overlay, como modais e caixas de diálogo."
+      },
+      "frombottom": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.sm}",
+            "blur": "{elevation.blur.md}",
+            "spread": "{elevation.spread.md}",
+            "color": "{color.shadow.warning.soft}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xs}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.warning.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
       }
     },
     "danger": {
@@ -474,6 +562,28 @@
         ],
         "type": "boxShadow",
         "description": "Usado em elementos que sobrepõem toda a interface, bloqueando o acesso a outros elementos, geralmente através de um overlay, como modais e caixas de diálogo."
+      },
+      "frombottom": {
+        "value": [
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.sm}",
+            "blur": "{elevation.blur.md}",
+            "spread": "{elevation.spread.md}",
+            "color": "{color.shadow.danger.soft}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{elevation.distance.md}",
+            "y": "{elevation.distance.2xs}",
+            "blur": "{elevation.blur.xl}",
+            "spread": "{elevation.spread.sm}",
+            "color": "{color.shadow.danger.soft}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Usado em elementos que se posicionam acima de outros elementos da interface sem bloquear o acesso ao restante da interface, como menus dropdown, flyouts e elementos suspensos."
       }
     }
   }

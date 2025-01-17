@@ -980,7 +980,12 @@
       "color.surface.gradient.danger.highlight": "S:4541e1d905fc0f7ca346c208c6a3c37605889f25,",
       "color.surface.gradient.danger.base": "S:4a7da0c9f0e08d5ac7b37685879784718f7e1512,",
       "color.surface.gradient.danger.shade": "S:786fde01e0618de521a9c3d88588e289c5bfb5f6,",
-      "elevation.neutral.inset": "S:51b56262d01a2e0925b180325e55ad384544dab7,"
+      "elevation.neutral.inset": "S:51b56262d01a2e0925b180325e55ad384544dab7,",
+      "elevation.accent.frombottom": "S:1300e2df7e39bf2f41b5d8ecaa2c64397e8f5587,",
+      "elevation.info.frombottom": "S:62af376fcee16259b16f4de8bde75c61b481510a,",
+      "elevation.success.frombottom": "S:8edb4f20cec0e6ee60529f1b9302029e27317c11,",
+      "elevation.warning.frombottom": "S:761b3f2a4a88d182883f2d39168a11b169d25ea7,",
+      "elevation.danger.frombottom": "S:4ae52ee60743a3be17f66aa1d68cc61657857c5d,"
     },
     "selectedTokenSets": {
       "semantic/border": "enabled",
