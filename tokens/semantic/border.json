@@ -2,22 +2,27 @@
   "border": {
     "radius": {
       "none": {
-        "value": "{unit.positive.xs}",
+        "value": "{unit.positive.zero}",
         "type": "borderRadius",
         "description": "Usado para resetar o valor do raio de borda para o valor inicial, sem arredondamento."
       },
-      "sm": {
+      "xs": {
         "value": "{unit.positive.sm}",
+        "type": "borderRadius",
+        "description": "Valor usado em elementos compactos, como badges."
+      },
+      "sm": {
+        "value": "{unit.positive.md}",
         "type": "borderRadius",
         "description": "Usado em elementos pequenos, como chips e badges."
       },
       "md": {
-        "value": "{unit.positive.md}",
+        "value": "{unit.positive.xl}",
         "type": "borderRadius",
         "description": "Valor padrão usado na maioria dos elementos com bordas arredondadas, como botões e campos de formulário."
       },
       "lg": {
-        "value": "{unit.positive.xl}",
+        "value": "{unit.positive.3xl}",
         "type": "borderRadius",
         "description": "Usado em containers e elementos maiores da interface."
       },
